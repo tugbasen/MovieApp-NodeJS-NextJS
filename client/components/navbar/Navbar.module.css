@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  color: #ffffff;
+  background-color: #0b314f;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menuItems {
+  list-style: none;
+  display: contents;
+}
+
+.menuItems a{
+    text-decoration: none;
+    margin: 0 1.5em;
+    color: #fff;
+}
+
+.logo{
+    font-weight: bolder;
+}
+
+.settingsMenu{
+    display: flex;
+    list-style: none;
+}
+
+.settingMenuItems{
+    display: contents;
+    list-style: none;
+}
+
+.settingMenuItems a{
+    text-decoration: none;
+    margin: 0 1.5em;
+    color: #fff;
+}
+
+.squareBox{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.squareBox:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.squareText{
+    font-size: small;
+    padding-left: 2px;
+}

@@ -1,0 +1,68 @@
+.movieSummary{
+    position: relative;
+}
+
+.movieBackdrop{
+    background: linear-gradient(135deg, rgba(5,1,24,1) 39%, rgba(11,17,61,1) 57%, rgba(143,157,222,1) 100%);
+    position: relative;
+}
+
+.imageBackdrop{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.rowPart{
+    height: 70vh;
+    width: 100%;
+}
+
+.imagePoster{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.aboutMovie{
+    margin-top: 70px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.detailMovieTitle{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.detailBox{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #98A29D;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    color: #98A29D;
+    font-size: small;
+}
+
+.userScore{
+    font-size: 13px;
+    margin-right: 25px;
+}
+
+.tags{
+    margin-left: 15px;
+    border: 10px solid #0b314f ;
+    border-radius: 50%;
+    background: #0b314f;
+}
+
+.tagline{
+    margin-top: 10px;
+    color: #98A29D;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.score{
+    margin-right: 3rem;
+    margin-left: 5px;
+    bottom: 30px;
+}
+
+.firstCircule{
+    color: #fff !important;
+}
+
+.circule{
+    color: #17991d !important;
+    border-radius: 50%;
+    background-color: #282B2A !important;
+    position: relative;
+}

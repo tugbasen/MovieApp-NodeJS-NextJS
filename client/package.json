@@ -1,0 +1,38 @@
+{
+  "name": "movie-app-with-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.5.3",
+    "axios": "^0.26.1",
+    "babel-plugin-superjson-next": "^0.4.3",
+    "babel-preset-next": "^1.4.0",
+    "bootstrap": "^5.1.3",
+    "next": "^12.1.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.5",
+    "superjson": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "babel-plugin-styled-components": "^2.0.6",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2",
+    "init": "^0.1.2",
+    "npx": "^10.2.2",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}

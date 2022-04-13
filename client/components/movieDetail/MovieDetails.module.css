@@ -1,0 +1,12 @@
+.keywordsButtons{
+    border: 1px solid #848685;
+    margin-right: 5px;
+}
+
+.casts{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-direction: column;
+    display: flex;
+    height: 75vh;
+}

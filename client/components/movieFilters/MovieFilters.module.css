@@ -1,0 +1,11 @@
+.movieFilters button{
+  width: 100%;
+  text-align: start;
+}
+
+.searchButton{
+    border: none;
+    border-radius: 50px;
+    color: #8E8E8E;
+    padding: 5px 0;
+}
