@@ -90,24 +90,29 @@ const getMovieCasts = async (req, res, next) => {
   res.json(movies)
 }
 
-const getMovieById = async (req, res, next) => {
+// const getMovieById = async (req, res, next) => {
+//   const movieId = req.params.id;
+//   const movie = await MovieDetail.find({movieId});
+//   res.json({ movie })
+// }
+
+// const getMovieCastsById = async (req, res, next) => {
+//   const movieId = req.params.id;
+//   const movie = await MovieCasts.find({movieId});
+//   res.json({movie})
+// }
+
+const getMovieDetailById = async (req, res, next) => {
   const movieId = req.params.id;
   const movie = await MovieDetail.find({movieId});
-  res.json({movie})
+  const casts = await MovieCasts.find({movieId})
+  res.json({casts, movie})
 }
-
-const getMovieCastsById = async (req, res, next) => {
-  const movieId = req.params.id;
-  const movie = await MovieCasts.find({movieId});
-  res.json({movie})
-}
-
 
 exports.addMovie = addMovie;
 exports.getMovies = getMovies;
 exports.addMovieDetail = addMovieDetail;
 exports.getMovieDetail = getMovieDetail;
-exports.getMovieById = getMovieById;
 exports.addMovieCasts = addMovieCasts;
 exports.getMovieCasts = getMovieCasts;
-exports.getMovieCastsById = getMovieCastsById;
+exports.getMovieDetailById = getMovieDetailById;

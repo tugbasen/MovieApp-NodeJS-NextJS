@@ -18,7 +18,7 @@ export async function getStaticProps(context) {
   const movie = res.data.movie[0]
 
   const response = await axios(`http://localhost:5000/movie/${id}`)
-  const casts = response.data.movie[0].casts
+  const casts = response.data.casts[0].casts
 
   return {
       props: {

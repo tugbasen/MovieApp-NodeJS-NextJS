@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get('/', mongodb.getMovies)
-app.get('/movie/:id', mongodb.getMovieById && mongodb.getMovieCastsById)
+app.get('/movie/:id', mongodb.getMovieDetailById)
 
 
 app.post('/', mongodb.addMovie)
